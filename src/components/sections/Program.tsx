@@ -27,11 +27,12 @@ const pushMeaning = [
 ];
 
 const programItems = [
+
   {
     number: "01",
     label: "Gathering",
     title: "Opening Prayer",
-    description: "Inviting God’s presence and preparing our hearts.",
+    description: "Inviting God`s presence and preparing our hearts.",
     icon: HandHeart,
   },
   {
