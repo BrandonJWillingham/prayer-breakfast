@@ -283,7 +283,7 @@ export default function Home() {
                   <p className="text-xs uppercase tracking-[0.18em] text-amber-400">
                     Message
                   </p>
-                  <p className="text-lg font-semibold">Spoken Word</p>
+                  <p className="text-lg font-semibold">P U S H</p>
                 </div>
               </li>
             </ul>
