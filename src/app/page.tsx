@@ -15,6 +15,7 @@ import {
 
 import Divider from "@/components/divider";
 import RsvpForm from "@/components/rsvpForm";
+import ProgramSection from "@/components/sections/Program";
 
 export default function Home() {
   return (
@@ -217,99 +218,7 @@ export default function Home() {
       </section>
 
       {/* PROGRAM */}
-      <section
-        id="program"
-        className="relative overflow-hidden bg-[#03152c] px-6 py-20 text-white sm:px-10 lg:py-24"
-      >
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(217,156,44,0.15),transparent_35%)]" />
-
-        <div className="relative mx-auto grid max-w-6xl items-center gap-14 lg:grid-cols-[0.85fr_1.15fr]">
-          <div>
-            <div className="flex items-center justify-center gap-4 lg:justify-start">
-              <span className="flex h-16 w-16 items-center justify-center rounded-full border border-amber-400 text-amber-400">
-                <HandHeart className="h-8 w-8" strokeWidth={1.5} />
-              </span>
-
-              <div>
-                <p className="text-xs uppercase tracking-[0.3em] text-amber-400">
-                  Order of Service
-                </p>
-
-                <h2 className="font-serif text-5xl font-semibold uppercase sm:text-6xl">
-                  Program
-                </h2>
-              </div>
-            </div>
-
-            <div className="mx-auto mt-5 max-w-[180px] lg:mx-0">
-              <Divider />
-            </div>
-
-            <ul className="mx-auto mt-10 max-w-sm space-y-6 lg:mx-0">
-              <li className="flex items-center gap-5">
-                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-amber-400/10 text-amber-400">
-                  <Music className="h-6 w-6" />
-                </span>
-
-                <div>
-                  <p className="text-xs uppercase tracking-[0.18em] text-amber-400">
-                    Welcome
-                  </p>
-                  <p className="text-lg font-semibold">
-                    Praise and Worship
-                  </p>
-                </div>
-              </li>
-
-              <li className="flex items-center gap-5">
-                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-amber-400/10 text-amber-400">
-                  <HandHeart className="h-6 w-6" />
-                </span>
-
-                <div>
-                  <p className="text-xs uppercase tracking-[0.18em] text-amber-400">
-                    Fellowship
-                  </p>
-                  <p className="text-lg font-semibold">Prayer</p>
-                </div>
-              </li>
-
-              <li className="flex items-center gap-5">
-                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-amber-400/10 text-amber-400">
-                  <Mic2 className="h-6 w-6" />
-                </span>
-
-                <div>
-                  <p className="text-xs uppercase tracking-[0.18em] text-amber-400">
-                    Message
-                  </p>
-                  <p className="text-lg font-semibold">P U S H</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-          <div
-            className="relative mx-auto aspect-[4/3] w-full max-w-2xl overflow-hidden rounded-3xl"
-            style={{
-              WebkitMaskImage:
-                "radial-gradient(ellipse at center, black 60%, rgba(0,0,0,.85) 75%, transparent 100%)",
-              maskImage:
-                "radial-gradient(ellipse at center, black 60%, rgba(0,0,0,.85) 75%, transparent 100%)",
-            }}
-          >
-            <Image
-              src="/raisedHands.jpg"
-              alt="Congregation worshipping together"
-              fill
-              sizes="(max-width: 1024px) 90vw, 55vw"
-              className="object-cover opacity-75"
-            />
-
-            <div className="absolute inset-0 bg-gradient-to-r from-[#03152c]/60 via-transparent to-transparent" />
-          </div>
-        </div>
-      </section>
+      <ProgramSection />
 
       {/* RSVP */}
       <section
