@@ -1,0 +1,19 @@
+.divider{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:.75rem;
+}
+
+.divider span{
+    width:70px;
+    height:1px;
+    background:#d4a64c;
+}
+
+.diamond {
+  width: 8px;
+  height: 8px;
+  background: #c89b3c;
+  transform: rotate(45deg);
+}
