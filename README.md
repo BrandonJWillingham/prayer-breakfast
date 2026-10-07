@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## About This Project
 
-## Getting Started
+The Liberty Prayer Breakfast website is a responsive event website developed for **Liberty Fellowship Deliverance Ministries, Inc.** and **Liberty Covenant Sound Ministries**.
 
-First, run the development server:
+The site was created to provide guests with a central place to view event information, explore the breakfast menu and program, and RSVP for the event.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The application includes a responsive landing page, event details, menu and program sections, Scripture-based messaging, and an RSVP form that collects attendee information including name, phone number, email address, and number of guests attending.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The project was designed with a mobile-first approach to make the experience simple and accessible for guests visiting from phones, while maintaining a clean visual presentation consistent with the branding of the event.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+RSVP submissions are stored using Supabase, allowing event organizers to collect and manage attendance information digitally instead of relying on manual registration.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Built With
 
-## Learn More
+[![Next.js][Next.js]][Next-url]
+[![React][React]][React-url]
+[![Tailwind CSS][Tailwind]][Tailwind-url]
+[![JavaScript][JavaScript]][JavaScript-url]
 
-To learn more about Next.js, take a look at the following resources:
+## Services & Integrations
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[![Supabase][Supabase]][Supabase-url]
+[![Vercel][Vercel]][Vercel-url]
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Supabase** — RSVP data storage and attendee management
+- **Vercel** — deployment and hosting
 
-## Deploy on Vercel
+## Key Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Mobile-first responsive design
+- Event information and location details
+- Interactive RSVP form
+- Digital attendee registration
+- Breakfast menu section
+- Event program and schedule
+- Scripture and ministry-focused messaging
+- Server-side RSVP submission
+- Persistent attendee storage with Supabase
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[Next.js]: https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+
+[React]: https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black
+[React-url]: https://react.dev/
+
+[Tailwind]: https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white
+[Tailwind-url]: https://tailwindcss.com/
+
+[JavaScript]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+[Supabase]: https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white
+[Supabase-url]: https://supabase.com/
+
+[Vercel]: https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white
+[Vercel-url]: https://vercel.com/
